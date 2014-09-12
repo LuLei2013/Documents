@@ -58,9 +58,7 @@ public class KMP {
 		next = isOptional ? getOptionalNext(target) : getNext(target);
 		if (next == null)
 			return -1;
-		System.out.println(Arrays.toString(next));
-		int i, j;
-		i = j = 0;
+		int i, j;		i = j = 0;
 		while (i < main.length()) {
 			while (j != -1 && main.charAt(i) != target.charAt(j)) {
 				j = next[j];
