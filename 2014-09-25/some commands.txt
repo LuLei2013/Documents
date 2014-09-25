@@ -1,0 +1,14 @@
+1. copy file from remote host.
+	
+in our team, there is a host which run linux OS. and there is also a user whose name is  "root" and password is "iptv1234"
+there is  a file folder named cecila_R15 "/usr/cecila_R15", and I want to copy the file to my local host.so I do the follow things.
+
+1. install the ssh tool.
+
+2. ctrl+ R  open the command line , and input the " scp  -r root@10.170.78.158:/usr/cecilia_R15   /c/data/ "
+
+3. input the password "iptv1234"
+
+4. ok ,the files are transforring.
+
+ the " -r "  parameter is used because I am coping a file folder rather than a file.
