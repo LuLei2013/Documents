@@ -1,0 +1,16 @@
+<html>
+<body>
+<div>
+<p id='first'>hello</p>
+<p id='second'>world</p>
+</div>
+</body>
+
+
+<script>
+var y=document.getElementByTagName('div');
+var x=y.getElementById('first');
+
+
+</script>
+</html>
